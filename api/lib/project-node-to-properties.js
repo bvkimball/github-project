@@ -10,6 +10,7 @@
  */
 export function projectNodeToProperties(state) {
   return {
+    ...state,
     databaseId: state.databaseId,
     id: state.id,
     title: state.title,
